@@ -1,0 +1,33 @@
+body{
+    background-image: url("Tree.png");
+    background-repeat: 3;
+    background-position: center;
+   width:100%;  
+}
+header{font-family:georgia,algerian;
+font-size:30px;
+color:indigo;
+text-align:center;
+}
+
+.animate{border:3px solid black;
+margin:0 auto;
+display:block;
+height:395px;
+width:462px;
+transition-property:border-radius, transform,width ;
+transition-delay: 0.5s;
+transition-duration: 1s,1s,1s,1s,1s,1s;
+
+}
+
+figcaption{text-align:center;
+color:magenta;
+font-family:georgia;
+font-size:25px;}
+
+span{background:white;}
+
+.animate:hover{border-radius:200px;
+transform:rotate(360deg);
+width:395px;}
